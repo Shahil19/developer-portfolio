@@ -8,8 +8,7 @@ body {
     color: orange;
 }
 /* hero section */
-.hero-section {
-    border: 1px solid black;
+.hero-section, .dream-big {
     padding: 40px 20px;
     display: flex;
     background-image: url(images/top-banner.png);
@@ -17,7 +16,7 @@ body {
 }
 
 .text-content {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 75%;
 }
 
@@ -26,6 +25,11 @@ body {
 }
 
 
+/********** Dream big ***********/
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+}
 
 /* utilities */
 .link {
@@ -34,7 +38,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 10px 20px;
     color: black;
     border-radius: 7px;
     background-image: linear-gradient(orange, tomato);
