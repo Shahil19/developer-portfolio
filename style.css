@@ -1,0 +1,41 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.orange {
+    color: orange;
+}
+/* hero section */
+.hero-section {
+    border: 1px solid black;
+    padding: 40px 20px;
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.text-content {
+    border: 1px solid black;
+    width: 75%;
+}
+
+.image-content img {
+    width: 100%;
+}
+
+
+
+/* utilities */
+.link {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: black;
+    border-radius: 7px;
+    background-image: linear-gradient(orange, tomato);
+}
